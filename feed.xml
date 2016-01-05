@@ -6,9 +6,25 @@
 </description>
     <link>http://fluiddynamics.github.io/didactic-hockeypuck/</link>
     <atom:link href="http://fluiddynamics.github.io/didactic-hockeypuck/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 08 Dec 2015 22:27:04 +0900</pubDate>
-    <lastBuildDate>Tue, 08 Dec 2015 22:27:04 +0900</lastBuildDate>
+    <pubDate>Wed, 06 Jan 2016 00:15:30 +0900</pubDate>
+    <lastBuildDate>Wed, 06 Jan 2016 00:15:30 +0900</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>正規分布の確率密度関数</title>
+        <description>&lt;p&gt;以下の確率密度関数を持つ分布を正規分布という．&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f\left(x\right)= \frac{1}{\sqrt{2\pi \sigma^2}}
+e^{-\frac{\left(x-\mu\right)^2}{2\sigma^2}}&lt;/script&gt;
+</description>
+        <pubDate>Sun, 27 Dec 2015 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E7%A2%BA%E7%8E%87%E3%83%BB%E7%B5%B1%E8%A8%88/2015/12/27/normal-distribution.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E7%A2%BA%E7%8E%87%E3%83%BB%E7%B5%B1%E8%A8%88/2015/12/27/normal-distribution.html</guid>
+        
+        
+        <category>確率・統計</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
