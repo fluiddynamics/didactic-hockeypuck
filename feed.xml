@@ -6,9 +6,71 @@
 </description>
     <link>http://fluiddynamics.github.io/didactic-hockeypuck/</link>
     <atom:link href="http://fluiddynamics.github.io/didactic-hockeypuck/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 06 Jan 2016 00:15:30 +0900</pubDate>
-    <lastBuildDate>Wed, 06 Jan 2016 00:15:30 +0900</lastBuildDate>
+    <pubDate>Wed, 06 Jan 2016 22:14:19 +0900</pubDate>
+    <lastBuildDate>Wed, 06 Jan 2016 22:14:19 +0900</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>積分</title>
+        <description>&lt;p&gt;次の定積分を求めてみよう．正の整数&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;に対して&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;I_n = \int_0^\frac{\pi}{2}
+\sin^n\theta
+d\theta.&lt;/script&gt;
+
+&lt;p&gt;(続く)&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Jan 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/03/integral.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/03/integral.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
+    
+      <item>
+        <title>行列</title>
+        <description>&lt;p&gt;行列&lt;script type=&quot;math/tex&quot;&gt;A&lt;/script&gt;の固有値&lt;script type=&quot;math/tex&quot;&gt;\lambda&lt;/script&gt;，固有ベクトル&lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;は次を満たす&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;Ax=\lambda x.&lt;/script&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;零行列の固有値・固有ベクトル&lt;/h3&gt;
+
+&lt;p&gt;零行列（成分が全て&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;の行列）の固有値は&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;，
+固有ベクトルは全てのベクトル．&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;単位行列の固有値・固有ベクトル&lt;/h3&gt;
+&lt;p&gt;単位行列の固有値は&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;， 固有ベクトルは全てのベクトル．&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 02 Jan 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/02/matrix.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/02/matrix.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
+    
+      <item>
+        <title>Γ関数</title>
+        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\Gamma&lt;/script&gt;関数は以下の性質を満たす&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{eqnarray*}
+\Gamma\left( x+1\right) &amp;=&amp; x\Gamma\left( x\right),\\
+\Gamma\left( x\right) &amp;=&amp; \int_0^\infty e^{-t}t^{x-1}dt.
+\end{eqnarray*} %]]&gt;&lt;/script&gt;
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/01/gamma-function.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/01/gamma-function.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
     
       <item>
         <title>正規分布の確率密度関数</title>
