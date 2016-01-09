@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>積分</title>
-  <meta name="description" content="以上の整数に対して定積分を求めてみよう．">
+  <title>測度</title>
+  <meta name="description" content="を集合とし，をその部分集合とする．が定まっているとする．次の条件をみたすときを測度という．">
 
   <link rel="stylesheet" href="/didactic-hockeypuck/css/main.css">
-  <link rel="canonical" href="http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/03/integral.html">
+  <link rel="canonical" href="http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/05/measure.html">
   <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://fluiddynamics.github.io/didactic-hockeypuck/feed.xml">
 <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
@@ -60,45 +60,28 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">積分</h1>
-    <p class="post-meta"><time datetime="2016-01-03T00:00:00+09:00" itemprop="datePublished">Jan 3, 2016</time></p>
+    <h1 class="post-title" itemprop="name headline">測度</h1>
+    <p class="post-meta"><time datetime="2016-01-05T00:00:00+09:00" itemprop="datePublished">Jan 5, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p><script type="math/tex">0</script>以上の整数<script type="math/tex">n</script>に対して定積分
+    <p><script type="math/tex">X</script>を集合とし，<script type="math/tex">Y</script>をその部分集合とする．
+<script type="math/tex">m\left(Y\right)</script>が定まっているとする．
+次の条件をみたすとき<script type="math/tex">m</script>を測度という．</p>
+
+<ul>
+  <li>
+    <p>全ての<script type="math/tex">Y\subset X</script>に対して<script type="math/tex">m\left(Y\right)\ge 0</script>.</p>
+  </li>
+  <li>
+    <p><script type="math/tex">\phi</script>を空集合として<script type="math/tex">m\left(\phi\right)=0</script></p>
+  </li>
+  <li>
+    <p><script type="math/tex">Y_0,Y_1,\dots\subset X</script>が互いに素なら
 <script type="math/tex">\displaystyle
-I_n = \int_0^\frac{\pi}{2}
-\sin^n\theta
-d\theta</script>
-を求めてみよう．</p>
-
-<p>部分積分の公式等より<script type="math/tex">n\ge 2</script>のとき</p>
-
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{eqnarray*}
-I_n &=& -\left[ \cos\theta\sin^{n-1}\theta \right]_0^\frac{\pi}{2}
-+\int_0^\frac{\pi}{2}\left(n-1\right)\cos^2\theta\sin^{n-2}\theta d\theta\\
-&=& \left(n-1\right)\left( I_{n-2} - I_n\right).
-\end{eqnarray*} %]]></script>
-
-<p>これを整理すると</p>
-
-<script type="math/tex; mode=display">I_n = \frac{n-1}{n}I_{n-2}</script>
-
-<p>(続く)</p>
-
-<h2 id="section">応用</h2>
-
-<p><script type="math/tex">n\ge 1</script>として定積分
-<script type="math/tex">T_n=\int_{-\infty}^\infty \left(\frac{t^2}{n}+1\right)^{-\frac{n+1}{2}}dt</script>
-を求めてみよう．</p>
-
-<p><script type="math/tex">t=\sqrt{n}\tan\theta</script>とおくと</p>
-
-<script type="math/tex; mode=display">T_n = \int_{-\frac{\pi}{2}}^\frac{\pi}{2}
-\cos^{n-1}\theta 
-d\theta
-=2 I_{n-1}</script>
+m\left(\cup_{i=0}^\infty Y_i\right)=\sum_{i=0}^\infty m\left(Y_i\right)</script></p>
+  </li>
+</ul>
 
   </div>
 
