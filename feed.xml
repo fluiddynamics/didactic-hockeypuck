@@ -6,8 +6,8 @@
 </description>
     <link>http://fluiddynamics.github.io/didactic-hockeypuck/</link>
     <atom:link href="http://fluiddynamics.github.io/didactic-hockeypuck/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 09 Jan 2016 09:28:07 +0900</pubDate>
-    <lastBuildDate>Sat, 09 Jan 2016 09:28:07 +0900</lastBuildDate>
+    <pubDate>Sat, 09 Jan 2016 12:31:26 +0900</pubDate>
+    <lastBuildDate>Sat, 09 Jan 2016 12:31:26 +0900</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -59,7 +59,7 @@
   &lt;li&gt;
     &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;Y_0,Y_1,\dots\subset X&lt;/script&gt;が互いに素なら
 &lt;script type=&quot;math/tex&quot;&gt;\displaystyle
-m\left(\cup_{i=0}^\infty Y_i\right)=\sum_{i=0}^\infty m\left(Y_i\right)&lt;/script&gt;&lt;/p&gt;
+m\left(\bigcup_{i=0}^\infty Y_i\right)=\sum_{i=0}^\infty m\left(Y_i\right)&lt;/script&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
