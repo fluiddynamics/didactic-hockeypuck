@@ -6,8 +6,8 @@
 </description>
     <link>http://fluiddynamics.github.io/didactic-hockeypuck/</link>
     <atom:link href="http://fluiddynamics.github.io/didactic-hockeypuck/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 09 Jan 2016 19:53:25 +0900</pubDate>
-    <lastBuildDate>Sat, 09 Jan 2016 19:53:25 +0900</lastBuildDate>
+    <pubDate>Sun, 10 Jan 2016 11:48:50 +0900</pubDate>
+    <lastBuildDate>Sun, 10 Jan 2016 11:48:50 +0900</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -115,15 +115,16 @@ I_n &amp;=&amp; -\left[ \cos\theta\sin^{n-1}\theta \right]_0^\frac{\pi}{2}
 &lt;h2 id=&quot;section&quot;&gt;応用&lt;/h2&gt;
 
 &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;n\ge 1&lt;/script&gt;として定積分
-&lt;script type=&quot;math/tex&quot;&gt;T_n=\int_{-\infty}^\infty \left(\frac{t^2}{n}+1\right)^{-\frac{n+1}{2}}dt&lt;/script&gt;
+&lt;script type=&quot;math/tex&quot;&gt;\displaystyle
+T_n=\int_{-\infty}^\infty \left(\frac{t^2}{n}+1\right)^{-\frac{n+1}{2}}dt&lt;/script&gt;
 を求めてみよう．&lt;/p&gt;
 
 &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;t=\sqrt{n}\tan\theta&lt;/script&gt;とおくと&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;T_n = \int_{-\frac{\pi}{2}}^\frac{\pi}{2}
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;T_n = 2\sqrt{n}\int_{0}^\frac{\pi}{2}
 \cos^{n-1}\theta 
 d\theta
-=2 I_{n-1}&lt;/script&gt;
+=2\sqrt{n}I_{n-1}&lt;/script&gt;
 </description>
         <pubDate>Sun, 03 Jan 2016 00:00:00 +0900</pubDate>
         <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/03/integral.html</link>
