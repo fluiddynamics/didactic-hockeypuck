@@ -6,8 +6,8 @@
 </description>
     <link>http://fluiddynamics.github.io/didactic-hockeypuck/</link>
     <atom:link href="http://fluiddynamics.github.io/didactic-hockeypuck/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Jan 2016 18:40:40 +0900</pubDate>
-    <lastBuildDate>Mon, 11 Jan 2016 18:40:40 +0900</lastBuildDate>
+    <pubDate>Mon, 11 Jan 2016 20:56:43 +0900</pubDate>
+    <lastBuildDate>Mon, 11 Jan 2016 20:56:43 +0900</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -40,7 +40,7 @@
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
 \begin{array}{ccl}
-a &amp;=&amp; \frac{\overline{xy}-\bar{x}\bar{y}}{\overline{x^2}-\overline{x}^2}\\
+a &amp;=&amp; \frac{\overline{xy}-n\bar{x}\bar{y}}{\overline{x^2}-n\overline{x}^2}\\
 b&amp;=&amp; -a\bar{x}+ \bar{y}
 \end{array} %]]&gt;&lt;/script&gt;
 
