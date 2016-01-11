@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Your awesome title</title>
-  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-">
+  <title>自然数の足し算</title>
+  <meta name="description" content="前の記事でとを使って自然数を定義したので，さらに足し算を定義する．">
 
   <link rel="stylesheet" href="/didactic-hockeypuck/css/main.css">
-  <link rel="canonical" href="http://fluiddynamics.github.io/didactic-hockeypuck/">
+  <link rel="canonical" href="http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/07/natural-number-addition.html">
   <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://fluiddynamics.github.io/didactic-hockeypuck/feed.xml">
 <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
@@ -68,105 +67,33 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">自然数の足し算</h1>
+    <p class="post-meta"><time datetime="2016-01-07T00:00:00+09:00" itemprop="datePublished">Jan 7, 2016</time></p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jan 9, 2016</span>
+  <div class="post-content" itemprop="articleBody">
+    <p>前の記事で<script type="math/tex">0</script>と<script type="math/tex">S</script>を使って自然数を定義したので，さらに足し算を定義する．</p>
 
-        <h2>
-          <a class="post-link" href="/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/09/characteristic-function.html">特性関数</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 8, 2016</span>
+<p><script type="math/tex">n</script>と<script type="math/tex">m</script>を自然数とするとき，<script type="math/tex">m+n</script>を次で定義する．</p>
 
-        <h2>
-          <a class="post-link" href="/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/08/linear-regression.html">直線回帰</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 7, 2016</span>
+<script type="math/tex; mode=display">% <![CDATA[
+m+n=\left\{
+\begin{array}{ll}
+n & \left(m = 0\right)\\
+S\left(m'+n\right) & \left(m = S\left(m'\right)\right)
+\end{array}
+\right. %]]></script>
 
-        <h2>
-          <a class="post-link" href="/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/07/natural-number-addition.html">自然数の足し算</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 6, 2016</span>
+<h3 id="section"><script type="math/tex">1+1=2</script>の証明</h3>
+<p><script type="math/tex">1+1</script>を計算する．上の定義より
+<script type="math/tex">1+1=S(0)+S(0)=S(0+S(0))=S(S(0))=2</script>．</p>
 
-        <h2>
-          <a class="post-link" href="/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/06/natural-number.html">自然数</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 5, 2016</span>
+  </div>
 
-        <h2>
-          <a class="post-link" href="/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/05/measure.html">測度</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 4, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/didactic-hockeypuck/%E7%A2%BA%E7%8E%87%E3%83%BB%E7%B5%B1%E8%A8%88/2016/01/04/monte-carlo.html">モンテカルロ法</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 3, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/03/integral.html">積分</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 2, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/02/matrix.html">行列</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 1, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/01/gamma-function.html">Γ関数</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 27, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/didactic-hockeypuck/%E7%A2%BA%E7%8E%87%E3%83%BB%E7%B5%B1%E8%A8%88/2015/12/27/normal-distribution.html">正規分布の確率密度関数</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 8, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/didactic-hockeypuck/jekyll/update/2015/12/08/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/didactic-hockeypuck/feed.xml">via RSS</a></p>
-
-</div>
+</article>
 
       </div>
     </div>
