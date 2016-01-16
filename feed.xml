@@ -6,9 +6,90 @@
 </description>
     <link>http://fluiddynamics.github.io/didactic-hockeypuck/</link>
     <atom:link href="http://fluiddynamics.github.io/didactic-hockeypuck/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Jan 2016 20:56:43 +0900</pubDate>
-    <lastBuildDate>Mon, 11 Jan 2016 20:56:43 +0900</lastBuildDate>
+    <pubDate>Sat, 16 Jan 2016 17:28:31 +0900</pubDate>
+    <lastBuildDate>Sat, 16 Jan 2016 17:28:31 +0900</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>三角関数のn乗の積分の変形</title>
+        <description>&lt;p&gt;定積分の次の変形を説明する．&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;T_n=\int_{-\infty}^\infty \left(\frac{t^2}{n}+1\right)^{-\frac{n+1}{2}}dt
+=2\sqrt{n}\int_{0}^\frac{\pi}{2}
+\cos^{n-1}\theta 
+d\theta&lt;/script&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;n\ge 1&lt;/script&gt;なので&lt;script type=&quot;math/tex&quot;&gt;t=\sqrt{n}\tan\theta&lt;/script&gt;とおくと&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;\displaystyle \int_{-\infty}^{\infty}&lt;/script&gt;は&lt;script type=&quot;math/tex&quot;&gt;\displaystyle \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}&lt;/script&gt;になる．&lt;/li&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;\displaystyle dt=\frac{\sqrt{n}d\theta}{\cos^2\theta}&lt;/script&gt;，&lt;/li&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;\displaystyle \frac{t^2}{n}+1=\tan^2\theta+1=\frac{1}{\cos^2\theta}&lt;/script&gt;．&lt;/li&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\displaystyle -\frac{2}{\pi}&lt;\theta&lt;\frac{2}{\pi} %]]&gt;&lt;/script&gt;において
+&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+0&lt;\cos\theta %]]&gt;&lt;/script&gt;なので
+&lt;script type=&quot;math/tex&quot;&gt;\displaystyle \left(\frac{1}{\cos^2\theta}\right)^{-\frac{n+1}{2}}
+=\cos^{n+1}\theta&lt;/script&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;以上より
+&lt;script type=&quot;math/tex&quot;&gt;\displaystyle T_n = 
+\int_{-\frac{\pi}{2}}^\frac{\pi}{2}\cos^{n-1}\theta\sqrt{n}d\theta.&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;さらに被積分が偶関数なので
+&lt;script type=&quot;math/tex&quot;&gt;T_n = 2\sqrt{n}\int_0^\frac{\pi}{2}\cos^{n-1}\theta d\theta&lt;/script&gt;
+となる．&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Jan 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/11/integral.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/11/integral.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
+    
+      <item>
+        <title>χ2乗分布</title>
+        <description>&lt;p&gt;自由度&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;のχ2乗分布の密度関数を以下に示す&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f_n\left(x\right) = k_nx^{\frac{n}{2}-1}e^{-\frac{x}{2}}.&lt;/script&gt;
+
+&lt;p&gt;ここで，&lt;script type=&quot;math/tex&quot;&gt;k_n&lt;/script&gt;は&lt;script type=&quot;math/tex&quot;&gt;\displaystyle
+\int_{\mathbb R}f_n\left(x\right)dx
+=1&lt;/script&gt;になるように定める．&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;k_n&lt;/script&gt;を求めてみよう．
+&lt;script type=&quot;math/tex&quot;&gt;\displaystyle 2t = x&lt;/script&gt;とおくと&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;2dt=dx&lt;/script&gt;，&lt;/li&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;\int_{\mathbb R}&lt;/script&gt;は&lt;script type=&quot;math/tex&quot;&gt;\int_{\mathbb R}&lt;/script&gt;のまま&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;なので，&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\int_{\mathbb R}
+f_n\left(x\right) =
+k_n \int_{\mathbb R} \left(2t\right)^{\frac{n}{2}-1}
+e^{-t} 2dt
+=
+k_n 2^{\frac{n}{2}}\int_{\mathbb R} t^{\frac{n}{2}-1}e^{-t}dt
+=k_n2^{\frac{n}{2}}\Gamma\left(\frac{n}{2}\right).&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;k_n = \frac{1}{2^{\frac{n}{2}}\Gamma\left(\frac{n}{2}\right)}&lt;/script&gt;
+
+&lt;p&gt;と求まる．&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Jan 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E7%A2%BA%E7%8E%87%E3%83%BB%E7%B5%B1%E8%A8%88/2016/01/10/chi-square-distribution.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E7%A2%BA%E7%8E%87%E3%83%BB%E7%B5%B1%E8%A8%88/2016/01/10/chi-square-distribution.html</guid>
+        
+        
+        <category>確率・統計</category>
+        
+      </item>
     
       <item>
         <title>特性関数</title>
@@ -241,41 +322,6 @@ d\theta
         
         
         <category>数学</category>
-        
-      </item>
-    
-      <item>
-        <title>Γ関数</title>
-        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\Gamma&lt;/script&gt;関数は以下の性質を満たす&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{eqnarray*}
-\Gamma\left( x+1\right) &amp;=&amp; x\Gamma\left( x\right),\\
-\Gamma\left( x\right) &amp;=&amp; \int_0^\infty e^{-t}t^{x-1}dt.
-\end{eqnarray*} %]]&gt;&lt;/script&gt;
-</description>
-        <pubDate>Fri, 01 Jan 2016 00:00:00 +0900</pubDate>
-        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/01/gamma-function.html</link>
-        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/01/gamma-function.html</guid>
-        
-        
-        <category>数学</category>
-        
-      </item>
-    
-      <item>
-        <title>正規分布の確率密度関数</title>
-        <description>&lt;p&gt;以下の確率密度関数を持つ分布を正規分布という．&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f\left(x\right)= \frac{1}{\sqrt{2\pi \sigma^2}}
-e^{-\frac{\left(x-\mu\right)^2}{2\sigma^2}}&lt;/script&gt;
-</description>
-        <pubDate>Sun, 27 Dec 2015 00:00:00 +0900</pubDate>
-        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E7%A2%BA%E7%8E%87%E3%83%BB%E7%B5%B1%E8%A8%88/2015/12/27/normal-distribution.html</link>
-        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E7%A2%BA%E7%8E%87%E3%83%BB%E7%B5%B1%E8%A8%88/2015/12/27/normal-distribution.html</guid>
-        
-        
-        <category>確率・統計</category>
         
       </item>
     
