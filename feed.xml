@@ -6,9 +6,28 @@
 </description>
     <link>http://fluiddynamics.github.io/didactic-hockeypuck/</link>
     <atom:link href="http://fluiddynamics.github.io/didactic-hockeypuck/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 Jan 2016 08:52:35 +0900</pubDate>
-    <lastBuildDate>Sun, 31 Jan 2016 08:52:35 +0900</lastBuildDate>
+    <pubDate>Sun, 31 Jan 2016 12:31:04 +0900</pubDate>
+    <lastBuildDate>Sun, 31 Jan 2016 12:31:04 +0900</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>sinの面積</title>
+        <description>&lt;p&gt;次の関係&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\int_0^{\frac{\pi}{2}}\sin \theta d\theta=1&lt;/script&gt;
+
+&lt;p&gt;を図示する．&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://fluiddynamics.github.io/didactic-hockeypuck/assets/sin.svg&quot; alt=&quot;図&quot; title=&quot;図&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 23 Jan 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/23/sin-area.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/23/sin-area.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
     
       <item>
         <title>Γ関数の公式</title>
@@ -234,36 +253,6 @@ d\theta=\left[-\cos\theta\right]_0^{\frac{\pi}{2}}=1&lt;/script&gt;
         <pubDate>Thu, 14 Jan 2016 00:00:00 +0900</pubDate>
         <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/14/integral.html</link>
         <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/14/integral.html</guid>
-        
-        
-        <category>数学</category>
-        
-      </item>
-    
-      <item>
-        <title>外心</title>
-        <description>&lt;p&gt;三角形の外心を位置ベクトルで表す公式を証明しよう．&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\vec{p} = \alpha \vec{a} + \beta \vec{b} + \left( 1 - \alpha - \beta \right) \vec{c}&lt;/script&gt;とおいて&lt;script type=&quot;math/tex&quot;&gt;\alpha&lt;/script&gt;，&lt;script type=&quot;math/tex&quot;&gt;\beta&lt;/script&gt;を求めればよい．&lt;/p&gt;
-
-&lt;p&gt;次の2つの条件を満たすように求める&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\left|\vec{a}-\vec{p}\right|
-=\left|\vec{c}-\vec{p}\right|&lt;/script&gt;，&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\left|\vec{b}-\vec{p}\right|
-=\left|\vec{c}-\vec{p}\right|&lt;/script&gt;．&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;（続く）&lt;/p&gt;
-</description>
-        <pubDate>Wed, 13 Jan 2016 00:00:00 +0900</pubDate>
-        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/13/circumcenter.html</link>
-        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/13/circumcenter.html</guid>
         
         
         <category>数学</category>
