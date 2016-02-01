@@ -6,9 +6,92 @@
 </description>
     <link>http://fluiddynamics.github.io/didactic-hockeypuck/</link>
     <atom:link href="http://fluiddynamics.github.io/didactic-hockeypuck/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 Jan 2016 12:31:04 +0900</pubDate>
-    <lastBuildDate>Sun, 31 Jan 2016 12:31:04 +0900</lastBuildDate>
+    <pubDate>Mon, 01 Feb 2016 22:45:12 +0900</pubDate>
+    <lastBuildDate>Mon, 01 Feb 2016 22:45:12 +0900</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>因数分解</title>
+        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;n\ge 1&lt;/script&gt;とする．多項式&lt;script type=&quot;math/tex&quot;&gt;f\left(z\right)=z^n-1&lt;/script&gt;を&lt;script type=&quot;math/tex&quot;&gt;\mathbb C&lt;/script&gt;上で因数分解してみよう．&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;k=0,\dots,n-1&lt;/script&gt;について&lt;script type=&quot;math/tex&quot;&gt;z=e^{\frac{k}{n}2\pi i}&lt;/script&gt;は&lt;script type=&quot;math/tex&quot;&gt;f\left(z\right)=0&lt;/script&gt;の
+相異なる解である．&lt;/p&gt;
+
+&lt;p&gt;これより以下の因数分解を得る．&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f\left(z\right)=z^n-1=
+\prod_{k=0}^{n-1}\left(z-e^{\frac{k}{n}2\pi i}\right)&lt;/script&gt;
+</description>
+        <pubDate>Tue, 26 Jan 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/26/factorization.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/26/factorization.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
+    
+      <item>
+        <title>平均値の定理</title>
+        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)&lt;/script&gt;を微分可能な関数とする．&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+a&lt;b %]]&gt;&lt;/script&gt;とする．
+このとき&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+a&lt;c&lt;b %]]&gt;&lt;/script&gt;と&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(c\right)=
+\frac{f\left(b\right)-f\left(a\right)}{b-a}&lt;/script&gt;を満たす&lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt;が存在する．&lt;/p&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;証明&lt;/h2&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\phi\left(x\right)=f\left(x\right)-\frac{f\left(b\right)-f\left(a\right)}{b-a}x&lt;/script&gt;
+とおくと，&lt;script type=&quot;math/tex&quot;&gt;\phi\left(x\right)&lt;/script&gt;は微分可能である．&lt;/p&gt;
+
+&lt;p&gt;また&lt;script type=&quot;math/tex&quot;&gt;\phi\left(b\right)-\phi\left(a\right)=
+f\left(b\right)-f\left(a\right)-\frac{f\left(b\right)-f\left(a\right)}{b-a}
+\left(b-a\right)=0&lt;/script&gt;
+なので&lt;script type=&quot;math/tex&quot;&gt;\phi\left(b\right)=\phi\left(a\right)&lt;/script&gt;である．&lt;/p&gt;
+
+&lt;p&gt;ここで&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+a&lt;c&lt;b %]]&gt;&lt;/script&gt;かつ&lt;script type=&quot;math/tex&quot;&gt;\phi&#39;\left(c\right)=0&lt;/script&gt;を満たす&lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt;が存在する．&lt;/p&gt;
+
+&lt;p&gt;この&lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt;は
+&lt;script type=&quot;math/tex&quot;&gt;\phi&#39;\left(c\right)=f&#39;\left(c\right)-\frac{f\left(b\right)-f\left(a\right)}{b-a}
+=0&lt;/script&gt;
+を満たす．&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Jan 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/25/average.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/25/average.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
+    
+      <item>
+        <title>sinのテイラー展開</title>
+        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sin x&lt;/script&gt;のテイラー展開を求めよう．&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\frac{d}{dx}\sin x=\cos x&lt;/script&gt;であり
+&lt;script type=&quot;math/tex&quot;&gt;\frac{d}{dx}\cos x=-\sin x&lt;/script&gt;である．&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=\sin x&lt;/script&gt;とおくと
+&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=0,f&#39;\left(x\right)=1,
+f&#39;&#39;\left(x\right)=0,f&#39;&#39;&#39;\left(x\right)=-1,\dots&lt;/script&gt;が得られる．&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sin x&lt;/script&gt;のテイラー展開は以下のように求まる．&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sin x =
+x-\frac{1}{3!}x^3+\frac{1}{5!}x^5-\cdots
+=
+\sum_{n=0}^{\infty}\frac{\left(-1\right)^n}{\left(2n+1\right)!}x^{2n+1}&lt;/script&gt;
+</description>
+        <pubDate>Sun, 24 Jan 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/24/sin-derivative.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/24/sin-derivative.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
     
       <item>
         <title>sinの面積</title>
@@ -181,81 +264,6 @@
         
         
         <category>確率・統計</category>
-        
-      </item>
-    
-      <item>
-        <title>一様分布の2乗</title>
-        <description>&lt;p&gt;確率変数&lt;script type=&quot;math/tex&quot;&gt;X&lt;/script&gt;は一様分布&lt;script type=&quot;math/tex&quot;&gt;U\left(0,1\right)&lt;/script&gt;に従うとする．
-&lt;script type=&quot;math/tex&quot;&gt;X^2&lt;/script&gt;の従う分布を求めよう．&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;X^2&lt;/script&gt;の累積分布関数を&lt;script type=&quot;math/tex&quot;&gt;F\left(x\right)&lt;/script&gt;とおくと，
-以下の通り求まる．&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;F\left(a\right)=P\left( X^2\le a\right)
-=P\left(X\le \sqrt{a}\right)=\sqrt{a}&lt;/script&gt;
-
-&lt;p&gt;ここから密度関数&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)&lt;/script&gt;を求めると以下のようになる．&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f\left(x\right)=\frac{dF\left(x\right)}{dx}
-=\frac{1}{2\sqrt{x}}&lt;/script&gt;
-
-&lt;p&gt;上記の&lt;script type=&quot;math/tex&quot;&gt;F&lt;/script&gt;と&lt;script type=&quot;math/tex&quot;&gt;f&lt;/script&gt;の定義域は&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;と&lt;script type=&quot;math/tex&quot;&gt;1&lt;/script&gt;の間である．&lt;/p&gt;
-</description>
-        <pubDate>Sat, 16 Jan 2016 00:00:00 +0900</pubDate>
-        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E7%A2%BA%E7%8E%87%E3%83%BB%E7%B5%B1%E8%A8%88/2016/01/16/uniform-distribution-squared.html</link>
-        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E7%A2%BA%E7%8E%87%E3%83%BB%E7%B5%B1%E8%A8%88/2016/01/16/uniform-distribution-squared.html</guid>
-        
-        
-        <category>確率・統計</category>
-        
-      </item>
-    
-      <item>
-        <title>半群の定義</title>
-        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;H&lt;/script&gt;を集合とし，&lt;script type=&quot;math/tex&quot;&gt;+:H\times H\rightarrow H&lt;/script&gt;を演算とする．
-&lt;script type=&quot;math/tex&quot;&gt;\left( H,+\right)&lt;/script&gt;が半群であるとは
-全ての&lt;script type=&quot;math/tex&quot;&gt;a,b,c\in H&lt;/script&gt;に対して&lt;script type=&quot;math/tex&quot;&gt;\left(a+b\right)+c=a+\left(b+c\right)&lt;/script&gt;
-が成り立つことである．&lt;/p&gt;
-
-&lt;p&gt;この性質を結合律という．&lt;/p&gt;
-
-&lt;p&gt;また，全ての&lt;script type=&quot;math/tex&quot;&gt;a,b,c\in H&lt;/script&gt;に対して
-&lt;script type=&quot;math/tex&quot;&gt;a+c=b+c\Rightarrow a=b&lt;/script&gt;が成り立つことを簡約律という．&lt;/p&gt;
-</description>
-        <pubDate>Fri, 15 Jan 2016 00:00:00 +0900</pubDate>
-        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/15/semigroup.html</link>
-        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/15/semigroup.html</guid>
-        
-        
-        <category>数学</category>
-        
-      </item>
-    
-      <item>
-        <title>積分</title>
-        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\displaystyle
-I_n = \int_0^\frac{\pi}{2}
-\sin^n\theta
-d\theta&lt;/script&gt;として，&lt;script type=&quot;math/tex&quot;&gt;I_0&lt;/script&gt;と&lt;script type=&quot;math/tex&quot;&gt;I_1&lt;/script&gt;を求めよう．&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;I_0=\int_0^\frac{\pi}{2}
-\sin^0\theta
-d\theta=\int_0^\frac{\pi}{2}
-d\theta=\frac{\pi}{2}&lt;/script&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;I_1=\int_0^\frac{\pi}{2}
-\sin\theta
-d\theta=\left[-\cos\theta\right]_0^{\frac{\pi}{2}}=1&lt;/script&gt;
-
-&lt;p&gt;となる．&lt;/p&gt;
-</description>
-        <pubDate>Thu, 14 Jan 2016 00:00:00 +0900</pubDate>
-        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/14/integral.html</link>
-        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/14/integral.html</guid>
-        
-        
-        <category>数学</category>
         
       </item>
     
