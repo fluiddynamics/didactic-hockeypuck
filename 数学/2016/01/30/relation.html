@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>極限</title>
-  <meta name="description" content="として次の数列の極限を求めよう．">
+  <title>2項関係</title>
+  <meta name="description" content="集合上の2項関係とはの部分集合のこと．の代わりにと書く．">
 
   <link rel="stylesheet" href="/didactic-hockeypuck/css/main.css">
-  <link rel="canonical" href="http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/28/limit.html">
+  <link rel="canonical" href="http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/30/relation.html">
   <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://fluiddynamics.github.io/didactic-hockeypuck/feed.xml">
 <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
@@ -70,32 +70,17 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">極限</h1>
-    <p class="post-meta"><time datetime="2016-01-28T00:00:00+09:00" itemprop="datePublished">Jan 28, 2016</time></p>
+    <h1 class="post-title" itemprop="name headline">2項関係</h1>
+    <p class="post-meta"><time datetime="2016-01-30T00:00:00+09:00" itemprop="datePublished">Jan 30, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p><script type="math/tex">t>0</script>として次の数列の極限を求めよう．</p>
+    <p>集合<script type="math/tex">S</script>上の2項関係<script type="math/tex">R</script>とは<script type="math/tex">S\times S</script>の部分集合のこと．
+<script type="math/tex">\left(x,y\right)\in R</script>の代わりに<script type="math/tex">xRy</script>と書く．</p>
 
-<script type="math/tex; mode=display">a_n = \left(1+\frac{t}{n}\right)^n\rightarrow e^t</script>
-
-<p>2項定理より次のように展開する</p>
-
-<script type="math/tex; mode=display">a_n=\sum_{k=0}^{n}\binom{n}{k}t^k.</script>
-
-<p>ここで<script type="math/tex">k</script>を固定した時の極限</p>
-
-<script type="math/tex; mode=display">\lim_{n\rightarrow \infty}\binom{n}{k}=
-\frac{1}{k!}</script>
-
-<p>を用いて，</p>
-
-<script type="math/tex; mode=display">\lim_{n\rightarrow \infty}
-\left(1+\frac{t}{n}\right)^n=\lim_{n\rightarrow \infty}
-\sum_{k=0}^{n}\binom{n}{k}t^k
-=\sum_{k=0}^{\infty}\frac{1}{k!}t^k=e^t</script>
-
-<p>を得る．</p>
+<p>例えば実数の集合<script type="math/tex">\mathbb R</script>上の2項関係
+<script type="math/tex">R=\left\{\left( x,x\right)\middle|x\in {\mathbb R}\right\}</script>
+が考えられる．</p>
 
   </div>
 

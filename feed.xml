@@ -6,9 +6,58 @@
 </description>
     <link>http://fluiddynamics.github.io/didactic-hockeypuck/</link>
     <atom:link href="http://fluiddynamics.github.io/didactic-hockeypuck/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Feb 2016 20:15:16 +0900</pubDate>
-    <lastBuildDate>Mon, 08 Feb 2016 20:15:16 +0900</lastBuildDate>
+    <pubDate>Sat, 13 Feb 2016 20:53:43 +0900</pubDate>
+    <lastBuildDate>Sat, 13 Feb 2016 20:53:43 +0900</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>同値関係</title>
+        <description>&lt;p&gt;集合&lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt;上の2項関係&lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt;で
+次の条件を満たすものを同値関係という．&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;(反射律)&lt;/td&gt;
+      &lt;td&gt;全ての&lt;script type=&quot;math/tex&quot;&gt;x\in S&lt;/script&gt;に対して&lt;script type=&quot;math/tex&quot;&gt;xRx&lt;/script&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;(対称律)&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;xRy&lt;/script&gt;ならば&lt;script type=&quot;math/tex&quot;&gt;yRx&lt;/script&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;(推移律)&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;xRy&lt;/script&gt;かつ&lt;script type=&quot;math/tex&quot;&gt;yRz&lt;/script&gt;ならば&lt;script type=&quot;math/tex&quot;&gt;xRz&lt;/script&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Sun, 31 Jan 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/31/equivalence.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/31/equivalence.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
+    
+      <item>
+        <title>2項関係</title>
+        <description>&lt;p&gt;集合&lt;script type=&quot;math/tex&quot;&gt;S&lt;/script&gt;上の2項関係&lt;script type=&quot;math/tex&quot;&gt;R&lt;/script&gt;とは&lt;script type=&quot;math/tex&quot;&gt;S\times S&lt;/script&gt;の部分集合のこと．
+&lt;script type=&quot;math/tex&quot;&gt;\left(x,y\right)\in R&lt;/script&gt;の代わりに&lt;script type=&quot;math/tex&quot;&gt;xRy&lt;/script&gt;と書く．&lt;/p&gt;
+
+&lt;p&gt;例えば実数の集合&lt;script type=&quot;math/tex&quot;&gt;\mathbb R&lt;/script&gt;上の2項関係
+&lt;script type=&quot;math/tex&quot;&gt;R=\left\{\left( x,x\right)\middle|x\in {\mathbb R}\right\}&lt;/script&gt;
+が考えられる．&lt;/p&gt;
+</description>
+        <pubDate>Sat, 30 Jan 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/30/relation.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/30/relation.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
     
       <item>
         <title>群の定義</title>
@@ -30,6 +79,8 @@
 &lt;script type=&quot;math/tex&quot;&gt;g^{-1}ge=ee=e=g^{-1}g&lt;/script&gt;に左から&lt;script type=&quot;math/tex&quot;&gt;g^{-1}&lt;/script&gt;の逆元&lt;script type=&quot;math/tex&quot;&gt;g^{-1-1}&lt;/script&gt;をかけると
 &lt;script type=&quot;math/tex&quot;&gt;g^{-1-1}g^{-1}ge=g^{-1-1}g^{-1}g&lt;/script&gt;.
 この左辺は&lt;script type=&quot;math/tex&quot;&gt;ge&lt;/script&gt;で右辺は&lt;script type=&quot;math/tex&quot;&gt;g&lt;/script&gt;なので&lt;script type=&quot;math/tex&quot;&gt;ge=g&lt;/script&gt;が示された．&lt;/p&gt;
+
+&lt;p&gt;(続く)&lt;/p&gt;
 </description>
         <pubDate>Fri, 29 Jan 2016 00:00:00 +0900</pubDate>
         <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/29/group.html</link>
@@ -48,18 +99,18 @@
 
 &lt;p&gt;2項定理より次のように展開する&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_n=\sum_{k=0}^{n}\left(n/k \right)t^k.&lt;/script&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_n=\sum_{k=0}^{n}\binom{n}{k}t^k.&lt;/script&gt;
 
 &lt;p&gt;ここで&lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;を固定した時の極限&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{n\rightarrow \infty}\left(n/k \right)=
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{n\rightarrow \infty}\binom{n}{k}=
 \frac{1}{k!}&lt;/script&gt;
 
 &lt;p&gt;を用いて，&lt;/p&gt;
 
 &lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{n\rightarrow \infty}
 \left(1+\frac{t}{n}\right)^n=\lim_{n\rightarrow \infty}
-\sum_{k=0}^{n}\left(n/k \right)t^k
+\sum_{k=0}^{n}\binom{n}{k}t^k
 =\sum_{k=0}^{\infty}\frac{1}{k!}t^k=e^t&lt;/script&gt;
 
 &lt;p&gt;を得る．&lt;/p&gt;
@@ -227,47 +278,6 @@ x-\frac{1}{3!}x^3+\frac{1}{5!}x^5-\cdots
         <pubDate>Fri, 22 Jan 2016 00:00:00 +0900</pubDate>
         <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/22/gamma-function.html</link>
         <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/22/gamma-function.html</guid>
-        
-        
-        <category>数学</category>
-        
-      </item>
-    
-      <item>
-        <title>大寒</title>
-        <description>&lt;p&gt;2016年1月21日は大寒．
-太陽の黄経が300度．&lt;/p&gt;
-</description>
-        <pubDate>Thu, 21 Jan 2016 00:00:00 +0900</pubDate>
-        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E7%AF%80%E6%B0%97/2016/01/21/daikan.html</link>
-        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E7%AF%80%E6%B0%97/2016/01/21/daikan.html</guid>
-        
-        
-        <category>節気</category>
-        
-      </item>
-    
-      <item>
-        <title>Γ関数の性質</title>
-        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\Gamma&lt;/script&gt;関数を以下で定義する&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\Gamma\left(x\right)=
-\int_0^\infty e^{-t}t^{x-1}dt.&lt;/script&gt;
-
-&lt;p&gt;次の公式を形式的に示す．&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\Gamma\left(x+1\right)=x\Gamma\left(x\right)&lt;/script&gt;
-
-&lt;p&gt;証明&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\Gamma\left(x+1\right)=
-\int_0^\infty e^{-t}t^{x}dt
-=\left[-e^{-t}t^{x}\right]_0^\infty - \int_0^\infty -e^{-t}xt^{x-1}dt
-=x\Gamma\left(x\right)&lt;/script&gt;
-</description>
-        <pubDate>Wed, 20 Jan 2016 00:00:00 +0900</pubDate>
-        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/20/gamma-property.html</link>
-        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/20/gamma-property.html</guid>
         
         
         <category>数学</category>
