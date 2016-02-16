@@ -6,9 +6,163 @@
 </description>
     <link>http://fluiddynamics.github.io/didactic-hockeypuck/</link>
     <atom:link href="http://fluiddynamics.github.io/didactic-hockeypuck/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 13 Feb 2016 20:53:43 +0900</pubDate>
-    <lastBuildDate>Sat, 13 Feb 2016 20:53:43 +0900</lastBuildDate>
+    <pubDate>Tue, 16 Feb 2016 20:38:22 +0900</pubDate>
+    <lastBuildDate>Tue, 16 Feb 2016 20:38:22 +0900</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Β関数</title>
+        <description>&lt;p&gt;Β関数について次の公式が成り立つ．&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;B\left(x,y\right)=2
+\int_0^{\frac{\pi}{2}}
+\sin^{2x-1}\theta\cos^{2y-1}\theta
+d\theta&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;B\left(x,y\right)=
+\frac{\Gamma\left( x\right)\Gamma\left( y\right)}{\Gamma\left( x+y\right)}&lt;/script&gt;
+</description>
+        <pubDate>Fri, 05 Feb 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/02/05/beta-function.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/02/05/beta-function.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
+    
+      <item>
+        <title>立春</title>
+        <description>&lt;p&gt;2016年2月4日は立春．太陽の光景が315度．&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 Feb 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E7%AF%80%E6%B0%97/2016/02/04/the-first-day-of-spring.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E7%AF%80%E6%B0%97/2016/02/04/the-first-day-of-spring.html</guid>
+        
+        
+        <category>節気</category>
+        
+      </item>
+    
+      <item>
+        <title>積分（円）</title>
+        <description>&lt;p&gt;定積分&lt;script type=&quot;math/tex&quot;&gt;\displaystyle I=\int_0^1 \sqrt{1-x^2}dx&lt;/script&gt;を求めよう．&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;x=\sin\theta&lt;/script&gt;とおくと&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;dx&lt;/script&gt;は&lt;script type=&quot;math/tex&quot;&gt;dx=\cos\theta d\theta&lt;/script&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;\theta&lt;/script&gt;の範囲は&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;から&lt;script type=&quot;math/tex&quot;&gt;\frac{\pi}{2}&lt;/script&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;なので以下の通り求まる&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;I=\int_0^{\frac{\pi}{2}}\sqrt{1-\sin^2\theta}\cos\theta d\theta
+=\int_0^{\frac{\pi}{2}}\cos^2\theta d\theta
+=\left[\frac{1}{2}\theta+\frac{1}{4}\sin 2\theta\right]_0^{\frac{\pi}{2}}=
+\frac{\pi}{4}
+.&lt;/script&gt;
+</description>
+        <pubDate>Wed, 03 Feb 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/02/03/integral-substitute.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/02/03/integral-substitute.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
+    
+      <item>
+        <title>cosのテイラー展開</title>
+        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\cos x&lt;/script&gt;のテイラー展開を求めよう．&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\frac{d}{dx}\sin x=\cos x&lt;/script&gt;であり
+&lt;script type=&quot;math/tex&quot;&gt;\frac{d}{dx}\cos x=-\sin x&lt;/script&gt;である．&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=\cos x&lt;/script&gt;とおくと
+&lt;script type=&quot;math/tex&quot;&gt;f\left(0\right)=1,f&#39;\left(0\right)=0,
+f&#39;&#39;\left(0\right)=-1,f&#39;&#39;&#39;\left(0\right)=0,\dots&lt;/script&gt;が得られる．&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\cos x&lt;/script&gt;のテイラー展開は以下のように求まる．&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\cos x =1-
+\frac{1}{2!}x^2+\frac{1}{4!}x^4-\cdots
+=
+\sum_{n=0}^{\infty}\frac{\left(-1\right)^n}{\left(2n\right)!}x^{2n}&lt;/script&gt;
+</description>
+        <pubDate>Tue, 02 Feb 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/02/02/cos-taylor.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/02/02/cos-taylor.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
+    
+      <item>
+        <title>積分</title>
+        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;0&lt;/script&gt;以上の整数&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;に対して定積分
+&lt;script type=&quot;math/tex&quot;&gt;\displaystyle
+I_n = \int_0^\frac{\pi}{2}
+\sin^n\theta
+d\theta&lt;/script&gt;
+とおく．つぎの等式を示す．&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+I_n=\left\{
+\begin{array}{ll}\displaystyle
+\frac{n-1}{n}\frac{n-3}{n-2}\frac{n-5}{n-4}\cdots
+\frac{5}{6}\frac{3}{4}\frac{1}{2}
+\frac{\pi}{2}
+&amp;
+\left(n:偶数\right)
+\\\displaystyle
+\frac{n-1}{n}\frac{n-3}{n-2}\frac{n-5}{n-4}\cdots
+\frac{6}{7}\frac{4}{5}\frac{2}{3}
+&amp;
+\left(n:奇数\right)
+\end{array}\right. %]]&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;証明&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/03/integral.html&quot;&gt;この記事&lt;/a&gt;で，以下の関係を示した&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;I_n = \frac{n-1}{n}I_{n-2}.&lt;/script&gt;
+
+&lt;p&gt;これから&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;I_n = \frac{n-1}{n}I_{n-2}
+=\frac{n-1}{n}\frac{n-2}{n-3}I_{n-4}
+=\cdots&lt;/script&gt;
+
+&lt;p&gt;等になる．&lt;/p&gt;
+
+&lt;p&gt;また，&lt;script type=&quot;math/tex&quot;&gt;I_1=1&lt;/script&gt;
+（&lt;a href=&quot;/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/23/sin-area.html&quot;&gt;この記事&lt;/a&gt;参照），&lt;script type=&quot;math/tex&quot;&gt;I_0=\frac{\pi}{2}&lt;/script&gt;である．&lt;/p&gt;
+
+&lt;p&gt;よって&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;が偶数のとき&lt;script type=&quot;math/tex&quot;&gt;I_n=&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;\displaystyle\frac{n-1}{n}\cdots\frac{1}{2}I_0=\frac{n-1}{n}\cdots\frac{1}{2}\frac{\pi}{2}&lt;/script&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;n&lt;/script&gt;が奇数のとき&lt;script type=&quot;math/tex&quot;&gt;I_n=&lt;/script&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;script type=&quot;math/tex&quot;&gt;\displaystyle\frac{n-1}{n}\cdots\frac{2}{3}I_1=\frac{n-1}{n}\cdots\frac{2}{3}&lt;/script&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        <pubDate>Mon, 01 Feb 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/02/01/integral.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/02/01/integral.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
     
       <item>
         <title>同値関係</title>
@@ -140,144 +294,6 @@ n&gt;N\ \ \ \Rightarrow\ \ \
         <pubDate>Wed, 27 Jan 2016 00:00:00 +0900</pubDate>
         <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/27/limit.html</link>
         <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/27/limit.html</guid>
-        
-        
-        <category>数学</category>
-        
-      </item>
-    
-      <item>
-        <title>因数分解</title>
-        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;n\ge 1&lt;/script&gt;とする．多項式&lt;script type=&quot;math/tex&quot;&gt;f\left(z\right)=z^n-1&lt;/script&gt;を&lt;script type=&quot;math/tex&quot;&gt;\mathbb C&lt;/script&gt;上で因数分解してみよう．&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;k=0,\dots,n-1&lt;/script&gt;について&lt;script type=&quot;math/tex&quot;&gt;z=e^{\frac{k}{n}2\pi i}&lt;/script&gt;は&lt;script type=&quot;math/tex&quot;&gt;f\left(z\right)=0&lt;/script&gt;の
-相異なる解である．&lt;/p&gt;
-
-&lt;p&gt;これより以下の因数分解を得る．&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f\left(z\right)=z^n-1=
-\prod_{k=0}^{n-1}\left(z-e^{\frac{k}{n}2\pi i}\right)&lt;/script&gt;
-</description>
-        <pubDate>Tue, 26 Jan 2016 00:00:00 +0900</pubDate>
-        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/26/factorization.html</link>
-        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/26/factorization.html</guid>
-        
-        
-        <category>数学</category>
-        
-      </item>
-    
-      <item>
-        <title>平均値の定理</title>
-        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)&lt;/script&gt;を微分可能な関数とする．&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-a&lt;b %]]&gt;&lt;/script&gt;とする．
-このとき&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-a&lt;c&lt;b %]]&gt;&lt;/script&gt;と&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(c\right)=
-\frac{f\left(b\right)-f\left(a\right)}{b-a}&lt;/script&gt;を満たす&lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt;が存在する．&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;証明&lt;/h2&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\phi\left(x\right)=f\left(x\right)-\frac{f\left(b\right)-f\left(a\right)}{b-a}x&lt;/script&gt;
-とおくと，&lt;script type=&quot;math/tex&quot;&gt;\phi\left(x\right)&lt;/script&gt;は微分可能である．&lt;/p&gt;
-
-&lt;p&gt;また&lt;script type=&quot;math/tex&quot;&gt;\phi\left(b\right)-\phi\left(a\right)=
-f\left(b\right)-f\left(a\right)-\frac{f\left(b\right)-f\left(a\right)}{b-a}
-\left(b-a\right)=0&lt;/script&gt;
-なので&lt;script type=&quot;math/tex&quot;&gt;\phi\left(b\right)=\phi\left(a\right)&lt;/script&gt;である．&lt;/p&gt;
-
-&lt;p&gt;ここで&lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
-a&lt;c&lt;b %]]&gt;&lt;/script&gt;かつ&lt;script type=&quot;math/tex&quot;&gt;\phi&#39;\left(c\right)=0&lt;/script&gt;を満たす&lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt;が存在する．&lt;/p&gt;
-
-&lt;p&gt;この&lt;script type=&quot;math/tex&quot;&gt;c&lt;/script&gt;は
-&lt;script type=&quot;math/tex&quot;&gt;\phi&#39;\left(c\right)=f&#39;\left(c\right)-\frac{f\left(b\right)-f\left(a\right)}{b-a}
-=0&lt;/script&gt;
-を満たす．&lt;/p&gt;
-</description>
-        <pubDate>Mon, 25 Jan 2016 00:00:00 +0900</pubDate>
-        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/25/average.html</link>
-        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/25/average.html</guid>
-        
-        
-        <category>数学</category>
-        
-      </item>
-    
-      <item>
-        <title>sinのテイラー展開</title>
-        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sin x&lt;/script&gt;のテイラー展開を求めよう．&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\frac{d}{dx}\sin x=\cos x&lt;/script&gt;であり
-&lt;script type=&quot;math/tex&quot;&gt;\frac{d}{dx}\cos x=-\sin x&lt;/script&gt;である．&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=\sin x&lt;/script&gt;とおくと
-&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=0,f&#39;\left(x\right)=1,
-f&#39;&#39;\left(x\right)=0,f&#39;&#39;&#39;\left(x\right)=-1,\dots&lt;/script&gt;が得られる．&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\sin x&lt;/script&gt;のテイラー展開は以下のように求まる．&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sin x =
-x-\frac{1}{3!}x^3+\frac{1}{5!}x^5-\cdots
-=
-\sum_{n=0}^{\infty}\frac{\left(-1\right)^n}{\left(2n+1\right)!}x^{2n+1}&lt;/script&gt;
-</description>
-        <pubDate>Sun, 24 Jan 2016 00:00:00 +0900</pubDate>
-        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/24/sin-derivative.html</link>
-        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/24/sin-derivative.html</guid>
-        
-        
-        <category>数学</category>
-        
-      </item>
-    
-      <item>
-        <title>sinの面積</title>
-        <description>&lt;p&gt;次の関係&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\int_0^{\frac{\pi}{2}}\sin \theta d\theta=1&lt;/script&gt;
-
-&lt;p&gt;を図示する．&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://fluiddynamics.github.io/didactic-hockeypuck/assets/sin.svg&quot; alt=&quot;図&quot; title=&quot;図&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 23 Jan 2016 00:00:00 +0900</pubDate>
-        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/23/sin-area.html</link>
-        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/23/sin-area.html</guid>
-        
-        
-        <category>数学</category>
-        
-      </item>
-    
-      <item>
-        <title>Γ関数の公式</title>
-        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;\Gamma&lt;/script&gt;関数の定義&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\Gamma\left(x\right)=
-\int_0^\infty e^{-t}t^{x-1}dt&lt;/script&gt;
-
-&lt;p&gt;において&lt;script type=&quot;math/tex&quot;&gt;t=r^2&lt;/script&gt;とおいてみよう．&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;dt=2r dr&lt;/script&gt;，&lt;/li&gt;
-  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;\int_0^\infty&lt;/script&gt;は&lt;script type=&quot;math/tex&quot;&gt;\int_0^\infty&lt;/script&gt;のまま&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;より&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\Gamma\left(x\right)=
-\int_0^\infty e^{-t}t^{x-1}dt
-= 2\int_0^\infty e^{-r^2}r^{2x-1}dr&lt;/script&gt;
-
-&lt;p&gt;となる．&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;使用例&lt;/h2&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\Gamma\left(\frac{1}{2}\right)
-=\int_{-\infty}^\infty e^{-r^2}dr&lt;/script&gt;
-</description>
-        <pubDate>Fri, 22 Jan 2016 00:00:00 +0900</pubDate>
-        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/22/gamma-function.html</link>
-        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/22/gamma-function.html</guid>
         
         
         <category>数学</category>
