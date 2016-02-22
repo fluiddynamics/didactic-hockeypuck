@@ -6,9 +6,84 @@
 </description>
     <link>http://fluiddynamics.github.io/didactic-hockeypuck/</link>
     <atom:link href="http://fluiddynamics.github.io/didactic-hockeypuck/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Feb 2016 20:38:22 +0900</pubDate>
-    <lastBuildDate>Tue, 16 Feb 2016 20:38:22 +0900</lastBuildDate>
+    <pubDate>Mon, 22 Feb 2016 21:59:26 +0900</pubDate>
+    <lastBuildDate>Mon, 22 Feb 2016 21:59:26 +0900</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>微分</title>
+        <description>&lt;p&gt;導関数の四則演算について示す．&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=g\left(x\right)+h\left(x\right)&lt;/script&gt;のとき
+&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(x\right)=g&#39;\left(x\right)+h&#39;\left(x\right)&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=g\left(x\right)-h\left(x\right)&lt;/script&gt;のとき
+&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(x\right)=g&#39;\left(x\right)-h&#39;\left(x\right)&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=g\left(x\right)h\left(x\right)&lt;/script&gt;のとき
+&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(x\right)=g&#39;\left(x\right)h\left(x\right)+g\left(x\right)h&#39;\left(x\right)&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=\frac{g\left(x\right)}{h\left(x\right)}&lt;/script&gt;のとき
+&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(x\right)=\frac{g&#39;\left(x\right)}{h\left(x\right)}-\frac{g\left(x\right)h&#39;\left(x\right)}{h\left(x\right)^2}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt;を定数として&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=ag\left(x\right)&lt;/script&gt;のとき&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(x\right)=ag&#39;\left(x\right)&lt;/script&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Feb 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/02/08/derivative.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/02/08/derivative.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
+    
+      <item>
+        <title>微分</title>
+        <description>&lt;p&gt;いくつかの関数の導関数を示す．&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=\sin x&lt;/script&gt;のとき&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(x\right)=\cos x&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=\cos x&lt;/script&gt;のとき&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(x\right)=-\sin x&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=\tan x&lt;/script&gt;のとき&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(x\right)=\frac{1}{\cos^2 x}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=\log x&lt;/script&gt;のとき&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(x\right)=\frac{1}{x}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=x^2&lt;/script&gt;のとき&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(x\right)=2x&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=\sqrt{x}&lt;/script&gt;のとき&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(x\right)=\frac{1}{2\sqrt{x}}&lt;/script&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Feb 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/02/07/derivative.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/02/07/derivative.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
+    
+      <item>
+        <title>微分</title>
+        <description>&lt;p&gt;関数&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)&lt;/script&gt;の導関数&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(x\right)&lt;/script&gt;の定義は以下の通り．&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;f&#39;\left(x\right)=\lim_{h\rightarrow 0}\frac{f\left(x+h\right)-f\left(x\right)}{h}&lt;/script&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;例&lt;/h3&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=0&lt;/script&gt;のとき&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(x\right)=0&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=x&lt;/script&gt;のとき&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(x\right)=1&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;f\left(x\right)=e^x&lt;/script&gt;のとき&lt;script type=&quot;math/tex&quot;&gt;f&#39;\left(x\right)=e^x&lt;/script&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 06 Feb 2016 00:00:00 +0900</pubDate>
+        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/02/06/derivative.html</link>
+        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/02/06/derivative.html</guid>
+        
+        
+        <category>数学</category>
+        
+      </item>
     
       <item>
         <title>Β関数</title>
@@ -207,93 +282,6 @@ I_n=\left\{
         <pubDate>Sat, 30 Jan 2016 00:00:00 +0900</pubDate>
         <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/30/relation.html</link>
         <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/30/relation.html</guid>
-        
-        
-        <category>数学</category>
-        
-      </item>
-    
-      <item>
-        <title>群の定義</title>
-        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt;を集合とし，演算&lt;script type=&quot;math/tex&quot;&gt;G\times G\rightarrow G&lt;/script&gt;が定まっているとする．
-&lt;script type=&quot;math/tex&quot;&gt;G&lt;/script&gt;が群であるとは次の3つを満たすことをいう&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;全ての&lt;script type=&quot;math/tex&quot;&gt;a,b,c\in G&lt;/script&gt;に対して&lt;script type=&quot;math/tex&quot;&gt;\left(ab\right)c=a\left(bc\right)&lt;/script&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;e\in G&lt;/script&gt;があって全ての&lt;script type=&quot;math/tex&quot;&gt;g\in G&lt;/script&gt;に対して&lt;script type=&quot;math/tex&quot;&gt;ge=eg=g&lt;/script&gt;&lt;/li&gt;
-  &lt;li&gt;全ての&lt;script type=&quot;math/tex&quot;&gt;g\in G&lt;/script&gt;に対して&lt;script type=&quot;math/tex&quot;&gt;g^{-1}\in G&lt;/script&gt;があって&lt;script type=&quot;math/tex&quot;&gt;gg^{-1}=g^{-1}g=e&lt;/script&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;geegggg-1g-1ge&quot;&gt;&lt;script type=&quot;math/tex&quot;&gt;ge=eg=g&lt;/script&gt;と&lt;script type=&quot;math/tex&quot;&gt;gg^{-1}=g^{-1}g=e&lt;/script&gt;について&lt;/h3&gt;
-
-&lt;p&gt;群の定義で使った
-これらの式を，それぞれ&lt;script type=&quot;math/tex&quot;&gt;eg=g&lt;/script&gt;と&lt;script type=&quot;math/tex&quot;&gt;g^{-1}g=e&lt;/script&gt;としてもよい．&lt;/p&gt;
-
-&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;ge=g&lt;/script&gt;を示す．
-&lt;script type=&quot;math/tex&quot;&gt;g^{-1}ge=ee=e=g^{-1}g&lt;/script&gt;に左から&lt;script type=&quot;math/tex&quot;&gt;g^{-1}&lt;/script&gt;の逆元&lt;script type=&quot;math/tex&quot;&gt;g^{-1-1}&lt;/script&gt;をかけると
-&lt;script type=&quot;math/tex&quot;&gt;g^{-1-1}g^{-1}ge=g^{-1-1}g^{-1}g&lt;/script&gt;.
-この左辺は&lt;script type=&quot;math/tex&quot;&gt;ge&lt;/script&gt;で右辺は&lt;script type=&quot;math/tex&quot;&gt;g&lt;/script&gt;なので&lt;script type=&quot;math/tex&quot;&gt;ge=g&lt;/script&gt;が示された．&lt;/p&gt;
-
-&lt;p&gt;(続く)&lt;/p&gt;
-</description>
-        <pubDate>Fri, 29 Jan 2016 00:00:00 +0900</pubDate>
-        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/29/group.html</link>
-        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/29/group.html</guid>
-        
-        
-        <category>数学</category>
-        
-      </item>
-    
-      <item>
-        <title>極限</title>
-        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;t&gt;0&lt;/script&gt;として次の数列の極限を求めよう．&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_n = \left(1+\frac{t}{n}\right)^n\rightarrow e^t&lt;/script&gt;
-
-&lt;p&gt;2項定理より次のように展開する&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;a_n=\sum_{k=0}^{n}\binom{n}{k}t^k.&lt;/script&gt;
-
-&lt;p&gt;ここで&lt;script type=&quot;math/tex&quot;&gt;k&lt;/script&gt;を固定した時の極限&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{n\rightarrow \infty}\binom{n}{k}=
-\frac{1}{k!}&lt;/script&gt;
-
-&lt;p&gt;を用いて，&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\lim_{n\rightarrow \infty}
-\left(1+\frac{t}{n}\right)^n=\lim_{n\rightarrow \infty}
-\sum_{k=0}^{n}\binom{n}{k}t^k
-=\sum_{k=0}^{\infty}\frac{1}{k!}t^k=e^t&lt;/script&gt;
-
-&lt;p&gt;を得る．&lt;/p&gt;
-</description>
-        <pubDate>Thu, 28 Jan 2016 00:00:00 +0900</pubDate>
-        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/28/limit.html</link>
-        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/28/limit.html</guid>
-        
-        
-        <category>数学</category>
-        
-      </item>
-    
-      <item>
-        <title>極限</title>
-        <description>&lt;p&gt;&lt;script type=&quot;math/tex&quot;&gt;a_n&lt;/script&gt;を数列とする．この数列の
-&lt;script type=&quot;math/tex&quot;&gt;n\rightarrow \infty&lt;/script&gt;における極限
-&lt;script type=&quot;math/tex&quot;&gt;\displaystyle a=\lim_{n\rightarrow \infty}a_n&lt;/script&gt;
-とは次のような数である．&lt;/p&gt;
-
-&lt;p&gt;どのような&lt;script type=&quot;math/tex&quot;&gt;\epsilon&gt;0&lt;/script&gt;に対しても次を満たすような&lt;script type=&quot;math/tex&quot;&gt;N&lt;/script&gt;が存在する&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-n&gt;N\ \ \ \Rightarrow\ \ \
-\left\| a_n-a\right\|&lt;\epsilon. %]]&gt;&lt;/script&gt;
-</description>
-        <pubDate>Wed, 27 Jan 2016 00:00:00 +0900</pubDate>
-        <link>http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/27/limit.html</link>
-        <guid isPermaLink="true">http://fluiddynamics.github.io/didactic-hockeypuck/%E6%95%B0%E5%AD%A6/2016/01/27/limit.html</guid>
         
         
         <category>数学</category>
